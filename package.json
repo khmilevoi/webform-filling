@@ -1,0 +1,24 @@
+{
+  "name": "webform-filling",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "parcel build --no-source-maps ./src/app.ts && cp ./static/* ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sega057/webform-filling.git"
+  },
+  "author": "sega057",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sega057/webform-filling/issues"
+  },
+  "bin": "./bin/npm-cli.js",
+  "homepage": "https://github.com/sega057/webform-filling#readme",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "typescript": "^4.1.2"
+  }
+}
